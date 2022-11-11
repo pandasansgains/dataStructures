@@ -68,6 +68,8 @@ public class binaryTree extends Graph{
         // first number is level second number is index of parent, second is index of children with root starting at 0
         //TODO implement the hierarchy of the indexes for the map
 
+        System.out.println("Inserted root with value: " + newNode.getNodeData());
+
         this.root = newNode;
     }
 

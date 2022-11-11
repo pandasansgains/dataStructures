@@ -1,4 +1,7 @@
+import java.util.ArrayList;
 import java.util.Random;
+
+import GraphParsers.treeParser;
 import Nodes.Node;
 import ProductCreator.binaryTreeCreator;
 import Products.Graph;
@@ -15,12 +18,17 @@ public class Main {
         Node root = new Node(2,int_random);
         binaryTree.setRoot(root);
 
-        for(int i = 0 ; i < 29; i++){
+        treeParser tp = new treeParser();
+
+        for(int i = 0 ; i < 5; i++){
             int_random = rand.nextInt(100);
             Node newNode = new Node(2,int_random);
             binaryTree.insertNode(binaryTree.getRoot(), newNode);
         }
 
-        System.out.println("Hello world!");
+        ArrayList<Object> output = tp.getTreeData(binaryTree.getRoot());
+
+
+        System.out.println(output);
     }
 }
