@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6dace7f-aa89-44b0-a12d-8722e3cd600c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GraphLib.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ProductCreator/graphCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Products/Graph.java" afterDir="false" />
+    <list default="true" id="c6dace7f-aa89-44b0-a12d-8722e3cd600c" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/Nodes/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductCreator/GraphCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProductCreator/binaryTreeCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Products/binaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProductCreator/graphCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Products/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Products/Graph.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -68,8 +68,16 @@
       <updated>1668027733032</updated>
       <workItem from="1668027734389" duration="628000" />
       <workItem from="1668167311689" duration="903000" />
-      <workItem from="1668168942732" duration="372000" />
+      <workItem from="1668168942732" duration="9109000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1668169563073</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668169563073</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,5 +93,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
